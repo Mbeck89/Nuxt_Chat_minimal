@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.12",
+    "@iconify-json/fluent": "^1.1.57",
+    "@microsoft/ai-chat-protocol": "^1.0.0-beta.20240610.1",
+    "@nuxt/ui": "^2.17.0",
+    "marked": "^13.0.1",
+    "nuxt": "^3.12.2",
+    "vue": "latest"
+  }
+}
